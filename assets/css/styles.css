@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.game-box {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+.score {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.error {
+    background-color: red;
+}
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 60px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:active {
+    background-color: gray;
+}
